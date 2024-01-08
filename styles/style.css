@@ -1,8 +1,9 @@
-/* body{
+body {
     display: flex;
-  justify-content: center;
-  align-items: center;
-} */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .header {
     background-image: linear-gradient(180deg, #020314 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
@@ -235,27 +236,102 @@
 }
 
 
+.newsletter {
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    margin: 120px 100px;
+    background-color: rgba(255, 0, 0, 0.05);
+    text-align: center;
+}
+
+.newsletter h3 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 30px 0px;
+}
+
+.newsletter p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.newsletter img {
+    margin: 80px 0px 10px 0px;
+}
+
+#email {
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 50px 0px 0px 50px;
+    padding: 25px 180px 25px 30px;
+    border: none;
+    margin-right: 0px;
+}
+
+#submit {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #F00;
+    border-radius: 0px 50px 50px 0px;
+    padding: 24px 56px;
+    border: none;
+    margin-left: 0px;
+}
 
 
+.footer {
+    width: 100%;
+    height: 609px;
+    background-color: #070211;
+}
 
+.footerDiv {
+    margin: 120px 140px;
+}
 
+.footer p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
 
+.footerDiv1,
+.footerDiv3 {
+    display: flex;
+    justify-content: space-between;
+}
 
+.footerDiv2 {
+    display: flex;
+    justify-content: center;
+}
 
+.footerDiv2 img {
+    padding: 15px;
+}
 
-
-
-
-
-
-
-
-
-
-/* main section img {
-    width: 364.844px;
-    height: 364.844px;
-    padding: 20px;
-    border-radius: 463px;
-    border: 15px solid #F00;
-} */
+hr {
+    background-color: rgba(255, 255, 255, 0.15);
+    height: 1px;
+    margin: 20px 0px;
+    border: none;
+}
