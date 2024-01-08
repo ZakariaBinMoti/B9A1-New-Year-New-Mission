@@ -1,0 +1,19 @@
+header{
+    background-image: url('../resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    margin: 20px 100px;
+    height: 600px;
+    width: 1320px;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 16px;
+    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+    /* background-image: url('../resources/Banner\ Image.png'); */
+}
+h3{
+    font-size: 72px;
+}
+
+h6{
+    font-size: 32px;
+}
