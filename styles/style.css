@@ -9,11 +9,25 @@ header{
     border-radius: 16px;
     /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
     /* background-image: url('../resources/Banner\ Image.png'); */
+    /* background-blend-mode: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+    background-blend-mode:calc(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 }
 h3{
+    padding-top: 0px;
+    margin-top: 0px;
     font-size: 72px;
 }
 
-h6{
+h4{
+    padding-top: 200px;
+    margin-bottom: 0px;
     font-size: 32px;
+}
+
+main section img{
+    width: 364.844px;
+    height: 364.844px;
+    padding: 20px;
+    border-radius: 463px;
+    border: 15px solid #F00;
 }
