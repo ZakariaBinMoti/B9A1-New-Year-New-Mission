@@ -1,33 +1,197 @@
-header{
-    background-image: url('../resources/Banner\ Image.png');
+/* body{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.header {
+    background-image: linear-gradient(180deg, #020314 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
     background-repeat: no-repeat;
-    margin: 20px 100px;
+    margin: 50px 100px;
     height: 600px;
     width: 1320px;
     color: #ffffff;
     text-align: center;
     border-radius: 16px;
-    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
-    /* background-image: url('../resources/Banner\ Image.png'); */
-    /* background-blend-mode: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
-    background-blend-mode:calc(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 }
-h3{
+
+.header h3 {
+    font-family: 'Merriweather';
     padding-top: 0px;
     margin-top: 0px;
     font-size: 72px;
+    line-height: 95px;
 }
 
-h4{
-    padding-top: 200px;
-    margin-bottom: 0px;
+.header h4 {
+    font-family: 'Merriweather';
+    padding-top: 180px;
+    margin-bottom: 20px;
     font-size: 32px;
+    font-weight: 200;
 }
 
-main section img{
+.categories {
+    margin-top: 120px;
+    font-family: Inter;
+    text-align: center;
+}
+
+.categories h1 {
+    color: #F00;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+
+.categories h4 {
+    color: #F00;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.categories h3 {
+    margin-top: 20px;
+    color: #070211;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.midnightParty {
+    margin: 100px 100px;
+    border-radius: 16px;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+}
+
+.midnightParty div {
+    margin: 20px;
+}
+
+.midnightParty h1 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    margin-bottom: 10px;
+}
+
+.midnightParty p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.midnightParty button {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    margin-left: 20px;
+    margin-bottom: 80px;
+}
+
+/* .midnightParty img {
+    background-blend-mode: multiply;
+    mix-blend-mode: multiply;
+} */
+
+
+.venue {
+    width: 1320px;
+    height: 482px;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 16px;
+    margin: 120px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.venue p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    margin: 0px;
+}
+
+.textred {
+    color: #F00;
+}
+
+.venue button {
+    background-color: #F00;
+    border: none;
+    border-radius: 8px;
+    padding: 16px 32px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* main section img {
     width: 364.844px;
     height: 364.844px;
     padding: 20px;
     border-radius: 463px;
     border: 15px solid #F00;
-}
+} */
