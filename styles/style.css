@@ -358,6 +358,13 @@ body {
     border-radius: 16px;
 }
 
+.bestGift img:hover{
+    -ms-transform: scale(1.02); 
+    -webkit-transform: scale(1.02); 
+    transform: scale(1.02);
+  box-shadow: 0 0 40px #ef0707;
+}
+
 #img1,
 #img2,
 #img4,
@@ -413,7 +420,7 @@ body {
 }
 
 #email {
-    color: rgba(7, 2, 17, 0.30);
+    color: black;
     font-family: 'Inter';
     font-size: 18px;
     font-weight: 400;
@@ -421,6 +428,10 @@ body {
     padding: 25px 180px 25px 30px;
     border: none;
     margin-right: 0px;
+}
+
+#email::placeholder{
+    color: rgba(7, 2, 17, 0.30);
 }
 
 #submit {
