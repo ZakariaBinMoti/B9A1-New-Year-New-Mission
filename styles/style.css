@@ -354,15 +354,15 @@ body {
     margin-bottom: 50px;
 }
 
-.bestGift img {
+.images img{
     border-radius: 16px;
 }
 
-.bestGift img:hover{
-    -ms-transform: scale(1.02); 
-    -webkit-transform: scale(1.02); 
+.images img:hover {
+    -ms-transform: scale(1.02);
+    -webkit-transform: scale(1.02);
     transform: scale(1.02);
-  box-shadow: 0 0 40px #ef0707;
+    box-shadow: 0 0 40px #ef0707;
 }
 
 #img1,
@@ -430,7 +430,7 @@ body {
     margin-right: 0px;
 }
 
-#email::placeholder{
+#email::placeholder {
     color: rgba(7, 2, 17, 0.30);
 }
 
