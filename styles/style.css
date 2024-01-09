@@ -1,3 +1,4 @@
+/*--------- body--------- */
 body {
     display: flex;
     flex-direction: column;
@@ -5,6 +6,8 @@ body {
     align-items: center;
 }
 
+
+/* --------------header----------- */
 .header {
     background-image: linear-gradient(180deg, #020314 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
     background-repeat: no-repeat;
@@ -32,6 +35,9 @@ body {
     font-weight: 200;
 }
 
+
+
+/* --------------categories section------------- */
 .categories {
     margin-top: 120px;
     font-family: 'Inter';
@@ -65,6 +71,10 @@ body {
     line-height: normal;
 }
 
+
+
+
+/* -------------midnight party section---------- */
 .midnightParty {
     margin: 100px 100px;
     border-radius: 16px;
@@ -121,12 +131,11 @@ body {
     margin-bottom: 80px;
 }
 
-/* .midnightParty img {
-    background-blend-mode: multiply;
-    mix-blend-mode: multiply;
-} */
 
 
+
+
+/* -----------------venue section------------- */
 .venue {
     width: 1320px;
     height: 482px;
@@ -169,6 +178,11 @@ body {
     margin: 0px;
 }
 
+
+
+
+
+/* ----------------------bestoffer section-------------- */
 .bestOffer {
     display: flex;
     margin: 120px 100px;
@@ -236,6 +250,133 @@ body {
 }
 
 
+
+
+
+/* -------------------holidaysale section------------- */
+.holidaysSale {
+    margin: 150px 100px;
+}
+
+.holidaysSale h4 {
+    color: #070211;
+    font-family: 'Inter';
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.holidaysSale h3 {
+    color: #F00;
+    text-align: center;
+    font-family: 'Merriweather';
+    font-size: 72px;
+    font-weight: 900;
+    margin: 0px 0px 30px 0px;
+}
+
+.sales50 {
+    color: #070211;
+}
+
+.holidaysSale p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+
+.relative {
+    position: relative;
+    width: 1320px;
+    height: 450px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#saleimg1 {
+    position: absolute;
+    height: 650px;
+    top: 25px;
+    left: 45px;
+}
+
+#saleimg2 {
+    position: absolute;
+    top: 100px;
+    right: 280px;
+}
+
+#saleimg3 {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+
+
+
+
+
+/* --------------best gift section------------------ */
+.bestGift {
+    margin: 120px 100px;
+}
+
+.bestGift h4 {
+    color: #F00;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.bestGift h3 {
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.bestGift p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 50px;
+}
+
+.bestGift img {
+    border-radius: 16px;
+}
+
+#img1,
+#img2,
+#img4,
+#img5 {
+    margin: 0px 20px 20px 0px;
+}
+
+#img3,
+#img6 {
+    margin: 0px 0px 20px 0px;
+}
+
+
+
+
+
+
+
+/* -----------newsletter--------------- */
 .newsletter {
     width: 1320px;
     height: 616px;
@@ -295,6 +436,10 @@ body {
 }
 
 
+
+
+
+/* -------------------footer---------------- */
 .footer {
     width: 100%;
     height: 609px;
